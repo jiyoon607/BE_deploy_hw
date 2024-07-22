@@ -118,13 +118,13 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/5.0/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'ko-kr'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Seoul'
 
 USE_I18N = True
 
-USE_TZ = True
+USE_TZ = False
 
 
 # Static files (CSS, JavaScript, Images)
@@ -151,6 +151,6 @@ CORS_ALLOWED_ORIGINS = [
     "http://127.0.0.1:5173",
 
     # FE 도메인 또는 ip 주소 추가하기
-    "http://프론트엔드도메인",
-    "http://프론트엔드ip주소:3000",
+    #"http://프론트엔드도메인",
+    #"http://프론트엔드ip주소:3000",
 ]
